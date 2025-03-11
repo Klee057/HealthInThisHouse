@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    tools:context=".ui.recipes.RecipesFragment">
+
+    <TextView
+        android:id="@+id/availableRecipesText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Available Recipes"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textColor="#4a4a4a"
+        />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="2dp"
+        android:layout_weight="1">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </androidx.recyclerview.widget.RecyclerView>
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:layout_marginBottom="5dp"
+        android:layout_weight="0">
+
+            <Button
+                android:id="@+id/addRecipeButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Add Recipe"
+                android:textSize="16dp"
+                android:layout_weight="1"
+                android:layout_marginRight="3dp"
+                android:layout_marginLeft="6dp"/>
+<!--            <Button-->
+<!--                android:id="@+id/editRecipeButton"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:text="Edit Recipe"-->
+<!--                android:textSize="16dp"-->
+<!--                android:layout_weight="1"-->
+<!--                android:layout_marginRight="6dp"-->
+<!--                android:layout_marginLeft="3dp"/>-->
+    </LinearLayout>
+</LinearLayout>

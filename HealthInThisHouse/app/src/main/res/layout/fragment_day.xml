@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".day">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Loading..."
+        android:textAlignment="textStart"
+        android:textColor="#2E1717"
+        android:textSize="25sp"
+        app:layout_constraintTop_toTopOf="@+id/textView8"
+        app:layout_constraintLeft_toLeftOf="@id/textView7"
+        />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:text="Loading..."
+        android:textAlignment="textStart"
+        android:textColor="#2E1717"
+        android:textSize="25sp"
+        app:layout_constraintLeft_toLeftOf="@id/textView9"
+        app:layout_constraintTop_toTopOf="@+id/textView10" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:text="Daily calorie budget"
+        android:textAlignment="textStart"
+        android:textColor="#2E1717"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.083"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.03" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Net calories"
+        android:textAlignment="textStart"
+        android:textColor="#2E1717"
+        android:textSize="25sp"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        app:layout_constraintLeft_toLeftOf="@id/textView6"/>
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Calories under budget"
+        android:textAlignment="textStart"
+        android:textColor="#2E1717"
+        android:textSize="25sp"
+        app:layout_constraintLeft_toLeftOf="@id/textView8"
+        app:layout_constraintTop_toBottomOf="@+id/divider3" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:text="2,000 cal"
+        android:textAlignment="textStart"
+        android:textColor="#2E1717"
+        android:textSize="25sp"
+        app:layout_constraintStart_toEndOf="@+id/textView6"
+        app:layout_constraintTop_toTopOf="@+id/textView6" />
+
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView"-->
+<!--        android:layout_width="395dp"-->
+<!--        android:layout_height="348dp"-->
+<!--        android:src="@drawable/img"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.060000002" />-->
+<!--    <ProgressBar-->
+<!--        android:id="@+id/imageView"-->
+<!--        style="?android:attr/progressBarStyle"-->
+<!--        android:layout_width="384dp"-->
+<!--        android:layout_height="337dp"-->
+<!--        tools:layout_editor_absoluteX="0dp"-->
+<!--        tools:layout_editor_absoluteY="35dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.060000002"/>-->
+
+    <ProgressBar
+        android:id="@+id/imageView"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="170dp"
+        android:layout_height="120dp"
+        android:progressBackgroundTint="#acabae"
+        android:progressTint="#59a9e1"
+        android:rotation="270"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="15dp"
+        app:layout_constraintVertical_bias="0.060000002"
+        />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="285dp"
+            android:layout_height="wrap_content"
+            android:text="Loading..."
+            android:textAlignment="center"
+            android:textColor="#2E1717"
+            android:textSize="60sp"
+            app:layout_constraintTop_toBottomOf="@id/imageView"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginTop="50dp"/>
+
+        <View
+            android:id="@+id/divider3"
+            android:layout_width="390dp"
+            android:layout_height="3dp"
+            android:background="?android:attr/listDivider"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView8"
+            app:layout_constraintVertical_bias="0.07999998" />
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>

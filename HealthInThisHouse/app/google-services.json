@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "475466451360",
+    "project_id": "healthinthishouse",
+    "storage_bucket": "healthinthishouse.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:475466451360:android:676c5b8317fc2b6b687cc5",
+        "android_client_info": {
+          "package_name": "com.example.healthinthishouse"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "475466451360-2i400f4bkdh4k8r0n51ki4ski4f8hd96.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBb_Aqs4lGCMyYbwclKcb9tUmQaugjM_ag"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "475466451360-2i400f4bkdh4k8r0n51ki4ski4f8hd96.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
