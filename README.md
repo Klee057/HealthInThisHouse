@@ -1,4 +1,4 @@
-# HealthInThisHouse Group project
+# Advanced Software Engineering Group project
 
 HealthInThisHouse is an android application that can help a user monitor their consumption of food.
 
